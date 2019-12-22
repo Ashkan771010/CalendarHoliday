@@ -14,7 +14,7 @@
 		847CA3E623AA24C20054AEF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847CA3E423AA24C20054AEF6 /* LaunchScreen.storyboard */; };
 		847CA3EE23AA43050054AEF6 /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847CA3ED23AA43050054AEF6 /* Holiday.swift */; };
 		847CA3F023AA48010054AEF6 /* HolidayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847CA3EF23AA48010054AEF6 /* HolidayRequest.swift */; };
-		84F8874A23AF4A5900D371DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F8874923AF4A5900D371DF /* Assets.xcassets */; };
+		847EC7B823AF596A00182323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847EC7B723AF596A00182323 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		847CA3E723AA24C20054AEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847CA3ED23AA43050054AEF6 /* Holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
 		847CA3EF23AA48010054AEF6 /* HolidayRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayRequest.swift; sourceTree = "<group>"; };
-		84F8874923AF4A5900D371DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		847EC7B723AF596A00182323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +66,9 @@
 				8406108523AE42DF004E12ED /* HolidaysTableViewVC.swift */,
 				847CA3EF23AA48010054AEF6 /* HolidayRequest.swift */,
 				847CA3DF23AA24BF0054AEF6 /* Main.storyboard */,
-				84F8874923AF4A5900D371DF /* Assets.xcassets */,
 				847CA3E423AA24C20054AEF6 /* LaunchScreen.storyboard */,
 				847CA3E723AA24C20054AEF6 /* Info.plist */,
+				847EC7B723AF596A00182323 /* Assets.xcassets */,
 			);
 			path = HolidayCalendar;
 			sourceTree = "<group>";
@@ -132,7 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				847CA3E623AA24C20054AEF6 /* LaunchScreen.storyboard in Resources */,
-				84F8874A23AF4A5900D371DF /* Assets.xcassets in Resources */,
+				847EC7B823AF596A00182323 /* Assets.xcassets in Resources */,
 				847CA3E123AA24BF0054AEF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

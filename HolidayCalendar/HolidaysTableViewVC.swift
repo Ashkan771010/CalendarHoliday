@@ -54,11 +54,16 @@ class HolidaysTableViewVC: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(indexPath.row)
+    }
+    
     @IBAction func backButton(_ sender: UIBarButtonItem
     ) {
-        print("noohoioioifg")
+        self.searchBar.text = ""
         self.listOfHOlidays = []
         tableView.reloadData()
+        
     }
     
 }
