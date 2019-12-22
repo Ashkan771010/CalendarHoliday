@@ -3,6 +3,7 @@
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -51,7 +52,8 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Holidays" id="dDN-8g-uUX">
-                        <barButtonItem key="leftBarButtonItem" title="Back" id="ghf-wQ-Rte">
+                        <barButtonItem key="leftBarButtonItem" title="Back" image="back-undo-return-button-png-13" id="ghf-wQ-Rte">
+                            <color key="tintColor" name="back Clolor"/>
                             <connections>
                                 <action selector="backButton:" destination="JhX-W8-8pV" id="EX9-c7-Opq"/>
                             </connections>
@@ -84,4 +86,10 @@
             <point key="canvasLocation" x="4389.6000000000004" y="-517.24137931034488"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="back-undo-return-button-png-13" width="32.333332061767578" height="24.666666030883789"/>
+        <namedColor name="back Clolor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
 </document>

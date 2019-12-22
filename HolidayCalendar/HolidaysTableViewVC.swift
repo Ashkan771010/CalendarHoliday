@@ -60,6 +60,7 @@ class HolidaysTableViewVC: UITableViewController {
     
     @IBAction func backButton(_ sender: UIBarButtonItem
     ) {
+        self.searchBar.resignFirstResponder()
         self.searchBar.text = ""
         self.listOfHOlidays = []
         tableView.reloadData()
