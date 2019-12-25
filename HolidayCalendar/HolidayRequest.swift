@@ -6,7 +6,7 @@
 //  Copyright © 2019 admin. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 enum HolidayError: Error {
     case noDataAvailable
