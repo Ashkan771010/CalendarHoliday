@@ -59,8 +59,13 @@ class HolidaysTableViewVC: UITableViewController {
         print(indexPath.row)
     }
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        cell.alpha = 0
-        UIView.animate(withDuration: 1.0, animations: { cell.alpha = 1 })
+        let rotaionTransform = CATransform3DTranslate(CATransform3DIdentity, -500, 10, 0)
+        cell.layer.transform = rotaionTransform
+        cell.alpha = 0.5
+        UIView.animate(withDuration: 0.5, animations: {
+            cell.layer.transform = CATransform3DIdentity
+            cell.alpha = 1.0
+        })
     }
     
     @IBAction func backButton(_ sender: UIBarButtonItem

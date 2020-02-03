@@ -35,7 +35,7 @@ struct HolidayRequest {
         let dataTask = URLSession.shared.dataTask(with: resourceURL ) {data, _, _ in
             guard let jasonData = data else{
                 completion(.failure(.noDataAvailable))
-                return
+                return 
             }
             
             do{
